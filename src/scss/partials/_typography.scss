@@ -1,0 +1,113 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat|PT+Sans';
+
+$heading-font-family: "Montserrat", "Trebuchet MS", Arial;
+$body-font-family: "PT Sans", Arial;
+
+
+// font styles
+
+%body-style {
+    font-family: $body-font-family;
+}
+
+%main-title-style {
+    font-family: $heading-font-family;
+    font-weight: normal;
+    font-variant: small-caps;
+}
+
+%main-subtitle-style {
+    font-family: $heading-font-family;
+}
+
+%heading-style {
+    font-weight: normal;
+}
+
+%subheading-style {
+    font-weight: 500;
+}
+
+%heading-style,
+%head-style {
+    font-family: $heading-font-family;
+}
+
+%head-style,
+%main-subtitle-style {
+    text-transform: uppercase;
+}
+
+%head-style {
+    font-weight: bold;
+}
+
+
+// rhythm
+
+h1 {
+    font-size: 2em;
+    line-height: 1;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    line-height: 1;
+    margin: 0 0 1em;
+}
+
+h3 {
+    font-size: 1em;
+    line-height: 1;
+    margin: 0 0 .5em;
+}
+
+#introduction > .subtitle {
+    font-size: 1.25em;
+    margin: 0;
+}
+
+.school__duration,
+.job__duration {
+    font-size: .75em;
+}
+
+.skill {
+    font-size: 1.5em;
+}
+
+
+// styling
+
+body {
+    @extend %body-style;
+}
+
+#introduction > .title {
+    @extend %main-title-style;
+}
+
+#introduction > .subtitle {
+    @extend %main-subtitle-style;
+}
+
+h2 {
+    @extend %heading-style;
+    font-weight: normal;
+    text-transform: lowercase;
+}
+
+h3 {
+    @extend %heading-style;
+    text-transform: uppercase;
+}
+
+.job__position {
+    @extend %subheading-style;
+}
+
+.school__duration,
+.job__duration {
+    @extend %head-style;
+}

@@ -1,0 +1,7 @@
+mixin duration(start, end)
+  if start != end
+    span.duration__start= start
+    | &mdash;
+    span.duration__end= end || "Present"
+  else
+   span= start

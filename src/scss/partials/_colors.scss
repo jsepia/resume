@@ -1,0 +1,48 @@
+$light-background: #EEE3B9;
+$strong-accent-color: #B25E08;
+$dull-accent-color: #A67437;
+$light-accent-color: #f2d4a6;
+$dark-color: #2B2117;
+$medium-color: mix($dark-color, $dull-accent-color, 50%);
+$complementary-color: #7C915D;
+
+$heading-color: $strong-accent-color;
+$body-color: $dark-color;
+$delimiter-color: $light-accent-color;
+
+body {
+    color: $body-color;
+}
+
+%heading-style {
+    color: $heading-color;
+}
+
+%main-title-style {
+    color: saturate($heading-color, 50%);
+}
+
+%main-subtitle-style ,
+%subheading-style {
+    color: $complementary-color;
+}
+
+%head-style {
+    color: $dull-accent-color;
+}
+
+%section-delimiter {
+    border-top-color: $light-accent-color;
+}
+
+.skill {
+    color: $medium-color;
+}
+
+%skill-separator {
+    color: $complementary-color;
+}
+
+#contact-info {
+    color: $heading-color;
+}

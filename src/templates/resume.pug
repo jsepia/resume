@@ -1,0 +1,45 @@
+include ./mixins/job
+include ./mixins/school
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+    link(rel="stylesheet", type="text/css", href="styles.css")
+    meta(http-equiv="Content-Type", content="text/html; charset=utf-8")
+  body
+    #wrapper
+      header#page-header
+        #introduction
+          h1.title= title
+          p.subtitle= subtitle
+        ul#contact-info
+          each val, index in contactInfo
+            li.contact-info__item(data-contact-info-type=index)= val
+
+      section#bio-section(rel="main")
+        h2 Bio
+        p= bio
+      
+      section#education-section
+        h2 Education
+        ul.schools
+          each school in schools
+            li.school
+              +school(school)
+
+      section#skills-section
+        h2 Areas of expertise
+        ul.skills
+          each skill in skills
+            li.skill= skill
+
+      section#jobs-section
+        h2 Experience
+        #jobs
+          each job in jobs
+            +job(job)
+      
+      footer#page-footer
+        p.last-updated-notice
+          | Last updated:
+          time(datetime=lastUpdatedTimestamp)= lastUpdatedDate

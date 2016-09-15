@@ -1,0 +1,8 @@
+include ./duration
+mixin school(school)
+  p.school__duration
+    +duration(school.startYear, school.endYear)
+  p.school__details
+    span.school__details__name= school.name
+    | , 
+    span.school__details__location= school.location

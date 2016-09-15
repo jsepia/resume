@@ -1,0 +1,95 @@
+#wrapper {
+    @extend %grid;
+}
+
+
+// header
+
+#page-header {
+    @extend %grid-cell;
+    display: flex;
+    flex-direction: row;
+    padding: 1.5em 2em .75em;
+}
+
+    #introduction,
+    #contact-info {
+        align-self: flex-end;
+    }
+
+    #introduction {
+        flex: 1 1 auto;
+    }
+
+    #contact-info {
+        flex: 0 1 auto;
+    }
+
+
+// main sections
+
+section {
+    @extend %grid-cell;
+    padding-bottom: 1em;
+
+    > %heading-style {
+        @extend %section-delimiter;
+        padding-top: .75em;
+    }
+}
+
+#bio-section {
+    @extend %grid-cell-2of3;
+}
+
+#education-section {
+    @extend %grid-cell-1of3;
+}
+
+
+// components
+
+.skill {
+    display: inline-block;
+}
+
+%skill-separator {
+    content: '/';
+    margin: 0 .5em 0 .25em;
+}
+
+.skill + .skill::before {
+    @extend %skill-separator;
+}
+
+#jobs {
+    @extend %grid;
+    padding-top: 1rem;
+}
+
+    .job {
+        @extend %grid-cell;
+        @extend %grid-cell-1of4;
+    }
+
+.school__duration,
+.job__duration {
+    font-size: .75rem;
+}
+
+.school__duration,
+.job__duration {
+    margin-bottom: .25em;
+}
+
+.job__employer {
+    margin-bottom: 0;
+}
+
+
+// footer
+
+#page-footer {
+    @extend %grid-cell;
+    text-align: right;
+}
