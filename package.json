@@ -1,0 +1,30 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "A print-friendly HTML resume, written in Markdown and rendered with SASS, Pug and Gulp",
+  "main": "app.js",
+  "scripts": {
+    "build": "gulp",
+    "clean": "gulp clean",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsepia/resume.git"
+  },
+  "author": "Julio Sepia <jsepia@juliosepia.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsepia/resume/issues"
+  },
+  "homepage": "https://github.com/jsepia/resume#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.4.1",
+    "gulp": "^3.9.1",
+    "gulp-merge-json": "^0.6.0",
+    "gulp-pug": "^3.0.4",
+    "gulp-sass": "^2.3.2",
+    "moment": "^2.15.0",
+    "del": "^2.2.2"
+  }
+}
