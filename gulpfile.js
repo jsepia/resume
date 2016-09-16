@@ -4,6 +4,7 @@ const del = require('del');
 const fs = require('fs');
 const gulp = require('gulp');
 const mergeJSON = require('gulp-merge-json');
+const mocha = require('gulp-mocha');
 const pug = require('gulp-pug');
 const sass = require('gulp-sass');
 const moment = require('moment');
@@ -36,7 +37,9 @@ function getContent() {
 
 // tasks
 
-gulp.task('default', ['html', 'css']);
+gulp.task('default', ['build', 'test']);
+
+gulp.task('build', ['html', 'css']);
 
 gulp.task('clean', function() {
 	return del(['dist']);
@@ -66,6 +69,12 @@ gulp.task('css', function() {
   return stream;
 });
 
+gulp.task('test', ['build'], function() {
+  const stream = gulp.src('test/specs/*.js', {read: false})
+    .pipe(mocha({reporter: 'nyan'}));
+  return stream;
+});
+
 gulp.task('watch', function() {
-  gulp.watch('src/**/*.*', ['default']);
+  gulp.watch('src/**/*.*', ['build', 'test']);
 });
