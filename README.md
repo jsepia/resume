@@ -6,6 +6,12 @@ My previous resume was made in InDesign. As I honed my skills as a front-end eng
 
 The result was a meta-resume - a resume that can be read and printed as a document, as well as reviewed as code. Most of the build process is way overkill (who on earth would code unit tests around static HTML?) but hopefully it'll make a good boilerplate for more complex projects down the line.
 
+## TODO
+
+* Add a link to this repo in the footer (read it from package.json)
+* Integrate with Travis
+* Auto-publish to gh-pages
+
 ## License
 
 MIT License
