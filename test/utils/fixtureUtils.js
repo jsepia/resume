@@ -8,7 +8,7 @@ function fetchHTML(filename) {
 }
 
 function loadResumeDOM() {
-  return cheerio.load(fetchHTML("dist/resume.html"));
+  return cheerio.load(fetchHTML("dist/index.html"));
 }
 
 module.exports = {
