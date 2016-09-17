@@ -1,0 +1,191 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat|PT+Sans';
+body, html {
+  font-size: 16px; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+p {
+  margin: 0 0 .5rem 0; }
+
+section > h2, section > h3 {
+  border-top: solid .125em; }
+
+body {
+  color: #2B2117; }
+
+h2, h3 {
+  color: #B25E08; }
+
+#introduction > .title {
+  color: #ba5e00; }
+
+#introduction > .subtitle,
+.job__position {
+  color: #7C915D; }
+
+.school__duration,
+.job__duration {
+  color: #A67437; }
+
+section > h2, section > h3 {
+  border-top-color: #f2d4a6; }
+
+.skill {
+  color: #694b27; }
+
+.skill + .skill::before {
+  color: #7C915D; }
+
+#contact-info {
+  color: #B25E08; }
+
+body {
+  font-family: "PT Sans", Arial; }
+
+#introduction > .title {
+  font-family: "Montserrat", "Trebuchet MS", Arial;
+  font-weight: normal;
+  font-variant: small-caps; }
+
+#introduction > .subtitle {
+  font-family: "Montserrat", "Trebuchet MS", Arial; }
+
+h2, h3 {
+  font-weight: normal; }
+
+.job__position {
+  font-weight: 500; }
+
+h2, h3,
+.school__duration,
+.job__duration {
+  font-family: "Montserrat", "Trebuchet MS", Arial; }
+
+.school__duration,
+.job__duration,
+#introduction > .subtitle {
+  text-transform: uppercase; }
+
+.school__duration,
+.job__duration {
+  font-weight: bold; }
+
+h1 {
+  font-size: 2em;
+  line-height: 1;
+  margin: 0; }
+
+h2 {
+  font-size: 1.5em;
+  line-height: 1;
+  margin: 0 0 1em; }
+
+h3 {
+  font-size: 1em;
+  line-height: 1;
+  margin: 0 0 .5em; }
+
+#introduction > .subtitle {
+  font-size: 1.25em;
+  margin: 0; }
+
+.school__duration,
+.job__duration {
+  font-size: .75em; }
+
+.skill {
+  font-size: 1.5em; }
+
+h2 {
+  font-weight: normal;
+  text-transform: lowercase; }
+
+h3 {
+  text-transform: uppercase; }
+
+#wrapper, #jobs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: -2rem 0 0 -2rem;
+  align-content: flex-start;
+  position: relative; }
+
+#page-header, section, .job, #page-footer {
+  box-sizing: border-box;
+  flex: 1 1 100%;
+  padding: 1rem 0 0 2rem; }
+
+#bio-section {
+  flex: 0 0 66.6666%; }
+
+#education-section {
+  flex: 0 0 33.3333%; }
+
+.job {
+  flex: 0 0 25%; }
+
+#page-header {
+  display: flex;
+  flex-direction: row;
+  padding: 1.5em 2em .75em; }
+
+#introduction,
+#contact-info {
+  align-self: flex-end; }
+
+#introduction {
+  flex: 1 1 auto; }
+
+#contact-info {
+  flex: 0 1 auto; }
+
+section {
+  padding-bottom: 1em; }
+  section > h2, section > h3 {
+    padding-top: .75em; }
+
+.skill {
+  display: inline-block; }
+
+.skill + .skill::before {
+  content: '/';
+  margin: 0 .5em 0 .25em; }
+
+#jobs {
+  padding-top: 1rem; }
+
+.school__duration,
+.job__duration {
+  font-size: .75rem; }
+
+.school__duration,
+.job__duration {
+  margin-bottom: .25em; }
+
+.job__employer {
+  margin-bottom: 0; }
+
+#page-footer {
+  text-align: right; }
+
+@media screen {
+  #wrapper {
+    max-width: 60rem;
+    margin: 0 auto; } }
+
+@media print {
+  body {
+    font-size: .75em; }
+  #page-header {
+    margin-top: 1em;
+    margin-left: 1em; }
+  #page-footer {
+    display: none; } }

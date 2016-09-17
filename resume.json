@@ -1,0 +1,102 @@
+{
+	"contactInfo": {
+		"email": "jsepia@juliosepia.com",
+		"linkedin": "linkedin.com/in/jsepia"
+	},
+	"jobs": [
+		{
+			"employer": "Amazon Kindle",
+			"position": "Web Development Engineer",
+			"startYear": "2014",
+			"endYear": null,
+			"description": "Helped design, build and improve Kindle Instant Previews, a shareable and embeddable e-book previewer. I was mainly responsible for mobile support and embeddability."
+		},
+		{
+			"employer": "Infinitarium",
+			"position": "Lead Developer",
+			"startYear": "2011",
+			"endYear": "2014",
+			"description": "As lead developer of Infinitarium, I’ve worked on numerous websites, web apps and mobile games, along with highly skilled individuals of all specialties."
+		},
+		{
+			"employer": "INIA - Agricultural Research Institute",
+			"position": "Web Developer",
+			"startYear": "2012",
+			"endYear": "2013",
+			"description": "Designed and implemented a large-scale Wordpress portal, as well as various custom plugins tailored to the client’s particular needs."
+		},
+		{
+			"employer": "Blink",
+			"position": "Personal project",
+			"startYear": "2011",
+			"endYear": "2011",
+			"description": "Created an HTML5 game programming library. Blink’s modular API and extensive feature set gave my team a critical advantage in time-constrained game jams."
+		},
+		{
+			"employer": "DentalChile",
+			"position": "Personal project",
+			"startYear": "2009",
+			"endYear": "2010",
+			"description": "Helped architect and develop a dental clinic’s web-based CRM. The app crunches large volumes of medical data into helpful charts that assist the CEO in the decision-making process."
+		},
+		{
+			"employer": "Technical University Federico Santa Maria",
+			"position": "Teacher",
+			"startYear": "2008",
+			"endYear": "2009",
+			"description": "Taught a game programming course on Java for mobile devices (J2ME), and co-founded a local chapter of the USM Games organization."
+		},
+		{
+			"employer": "Freelance work",
+			"position": "Self-employed",
+			"startYear": "2008",
+			"endYear": "2010",
+			"description": "Designed and coded personal portfolios, educational websites, online catalogs, etc. I worked with individuals and companies alike, both local and foreign."
+		},
+		{
+			"employer": "Scania Maipu",
+			"position": "IT intern",
+			"startYear": "2004",
+			"endYear": "2004",
+			"description": "Interned at an automotive parts retailer. This was my first glimpse of the pivotal role of computer software in the operation of a business."
+		}
+	],
+	"pageTitle": "Julio Sepia's resume",
+	"pageDescription": "Web developer Julio Sepia's resume, which shows his experience in web application development, responsive web design and game development.",
+	"pageThumbnail": "http://juliosepia.com/img/avatar.png",
+	"siteName": "JulioSepia.com",
+	"title": "Julio Sepia",
+	"subtitle": "Web Developer",
+	"bio": "I'm Julio, a software developer with experience in web applications (desktop/mobile), graphic design and videogames. I'm constantly amazed by the ever-improving capabilities of the web and I enjoy being an early adopter of new technologies. As a front-end specialist, I like to work closely with UX designers and product managers to define and deliver satisfying user experiences.",
+	"schools": [
+		{
+			"name": "Romain Rolland Elementary School",
+			"location": "Paris",
+			"startYear": "1994",
+			"endYear": "1995"
+		},
+		{
+			"name": "Lycee Alliance Francaise de Saint Exupery",
+			"location": "Santiago",
+			"startYear": "1996",
+			"endYear": "2004"
+		},
+		{
+			"name": "Technical University Federico Santa Maria",
+			"location": "Santiago",
+			"startYear": "2005",
+			"endYear": "2010"
+		}
+	],
+	"skills": [
+		"jQuery",
+		"Node.JS",
+		"ES6",
+		"CSS3",
+		"WebGL",
+		"Java",
+		"Linux",
+		"Unity",
+		"MongoDB"
+	]
+}
