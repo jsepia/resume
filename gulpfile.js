@@ -43,7 +43,7 @@ gulp.task('default', ['build', 'test']);
 gulp.task('build', ['html', 'css']);
 
 gulp.task('clean', function() {
-	return del(['dist']);
+	return del(['dist', '.publish']);
 });
 
 gulp.task('content', function() {
