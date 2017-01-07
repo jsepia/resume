@@ -1,18 +1,32 @@
 {
   "jobs": [
     {
+      "employer": "Amazon Web Services - Control Tower",
+      "position": "Sr. Design Technologist",
+      "startYear": "2018",
+      "endYear": "2019",
+      "description": "Created and tested a UX prototype for a new AWS service, gathering early stakeholder feedback, uncovering technical constraints, defining data models, and delivering UX-approved JSX code."
+    },
+    {
+      "employer": "Amazon Web Services - Service Catalog",
+      "position": "Web Development Engineer",
+      "startYear": "2017",
+      "endYear": "2018",
+      "description": "Built and designed frontend components in the style of Material Design. Designed and kicked off \"Brand your console\", a feature that lets IT administrators customize Service Catalog's theme colors."
+    },
+    {
       "employer": "Amazon - Kindle Instant Previews",
       "position": "Web Development Engineer",
       "startYear": "2014",
-      "endYear": null,
-      "description": "Worked on the world's most versatile e-book previewer. Designed and implementation the app's modular, multi-layered SASS framework, and led the development of its ultra-lightweight embeddable widget."
+      "endYear": "2017",
+      "description": "Worked on the world's most versatile e-book previewer. Designed and implementation the app's modular, multi-layered SASS framework, and led the development of a lightweight widget you can embed anywhere."
     },
     {
       "employer": "Infinitarium",
       "position": "Lead Developer",
       "startYear": "2011",
       "endYear": "2014",
-      "description": "As lead developer, I worked on numerous websites, web apps and mobile games, handling such diverse tasks as UX design, visual design, front-end development, tooling, Node.JS servers, deployment strategies and infrastructure."
+      "description": "Worked on numerous websites, web apps and mobile games, handling such diverse tasks as UI design, visual design, front-end development, tooling, Node.JS servers, devops, and agile methodologies."
     },
     {
       "employer": "INIA - Agricultural Research Institute",
@@ -30,10 +44,10 @@
     },
     {
       "employer": "DentalChile",
-      "position": "Personal project",
+      "position": "Freelance developer",
       "startYear": "2009",
       "endYear": "2010",
-      "description": "Helped architect and develop a web-based CRM. The app crunches large volumes of medical data into helpful charts that assist the CEO in the decision-making process."
+      "description": "Helped structure and develop a web-based CRM. The app crunches large volumes of medical data into helpful charts that assist DentalChile's CEO in decision-making."
     },
     {
       "employer": "Technical University Federico Santa Maria",
@@ -43,18 +57,11 @@
       "description": "Taught a game programming course on Java for mobile devices (J2ME), and co-founded a local chapter of the USM Games organization."
     },
     {
-      "employer": "Freelance work",
-      "position": "Self-employed",
+      "employer": "Various",
+      "position": "Freelance developer",
       "startYear": "2008",
       "endYear": "2010",
       "description": "Designed and coded personal portfolios, educational websites, online catalogs, etc. I worked with individuals and companies alike, both local and foreign."
-    },
-    {
-      "employer": "Scania Maipu",
-      "position": "IT intern",
-      "startYear": "2004",
-      "endYear": "2004",
-      "description": "Interned at an automotive parts retailer. This was my first glimpse of the pivotal role of computer software in running a business."
     }
   ]
 }

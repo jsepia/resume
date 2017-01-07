@@ -1,8 +1,22 @@
 language: node_js
 node_js:
-  - "6"
-  - "6.1"
-  - "5.11"
-  - "4.4"
-dist: trusty
-script: npm run deploy
+- '10'
+cache:
+  yarn: true
+  directories:
+  - node_modules
+sudo: false
+script: yarn build
+deploy:
+- provider: s3
+  bucket: www.juliosepia.com
+  local_dir: dist
+  upload-dir: public/resume
+  access_key_id: AKIAJNEAP3FA5J54YFCQ
+  secret_access_key:
+    secure: scNtzhSIt2B7qCaObt+duXhhmcGzKQJAUAaYgm4HwGHd7oL59L8s1yrERhaCV9SxMjUs79Q4Ej8Kgi/WsmfhRcsVptrCQz/at+SOGLiwZiaXCkoL5qwLd4ctssw7GY+l5ojVmzOea/UyMwhFWL5QsrsfprnLk/PsI+933l/QB8fPSovCNKLvccXK4xRzljK0OmyIV6EBwHG8uUWareiFN8TCoRKNZE7XZm+L1pL7y/Lqoz2q7CHfYt+ZOD9ALTlNzuEn4NKQxOgLo6UDvUsG+88LsrcGpMNjFRvx421V7Rd6TkUjDkHVR0SFSIfG/uxtKU798J+I0UUy7+dJAFpRJqOI4nLMDKd+X6bRv6OoSI5WNpdmZYuis5+d8S+S7fXp2muZ3KE4sIBl8gjqOvEGTPLL5a025jdUsuT8hfLNjLYg0IsATzmOyn53horFNkzD8RFJUTb58DlpEkdkfAODL84B4zH2khv3B3Thms1eRtv7VVLQpxJW3bopBeRwWUT+JYgrRPkajzRU1UghtAvOy+aG9ML3OgWOTR3WXx/UUqHOWdIytDIPFiT+ttKV3ZJXk8n6UG0TeYRihpk4Nr41occJU3rKLj1fwfOmXPrDw+6eEkyMak9OZqe1XTQCmFZMFVljtqTkAYSV2nEtmgLNNjGVnvCBzmyTYwXGtxFCxSo=
+  skip_cleanup: true
+  cache_control: max-age=300
+  on:
+    repo: jsepia/resume
+    branch: master

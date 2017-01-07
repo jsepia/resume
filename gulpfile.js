@@ -3,7 +3,6 @@
 const del = require('del');
 const fs = require('fs');
 const gulp = require('gulp');
-const ghpages = require('gulp-gh-pages');
 const mergeJSON = require('gulp-merge-json');
 const mocha = require('gulp-mocha');
 const pug = require('gulp-pug');
@@ -78,9 +77,4 @@ gulp.task('test', ['build'], function() {
 
 gulp.task('watch', function() {
   gulp.watch('src/**/*.*', ['build', 'test']);
-});
-
-gulp.task('deploy', ['build'], function () {
-  return gulp.src("./dist/**/*")
-    .pipe(ghpages())
 });
