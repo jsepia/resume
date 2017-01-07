@@ -45,22 +45,25 @@ $body-font-family: "PT Sans", Arial;
 
 // rhythm
 
-h1 {
+%h1 {
     font-size: 2em;
     line-height: 1;
     margin: 0;
 }
 
-h2 {
+%h2 {
     font-size: 1.5em;
     line-height: 1;
     margin: 0 0 1em;
+    font-weight: normal;
+    text-transform: lowercase;
 }
 
-h3 {
+%h3 {
     font-size: 1em;
     line-height: 1;
     margin: 0 0 .5em;
+    text-transform: uppercase;
 }
 
 #introduction > .subtitle {
@@ -69,12 +72,9 @@ h3 {
 }
 
 .school__duration,
-.job__duration {
+.job__duration,
+#page-footer {
     font-size: .75em;
-}
-
-.skill {
-    font-size: 1.5em;
 }
 
 
@@ -92,18 +92,30 @@ body {
     @extend %main-subtitle-style;
 }
 
+h1 {
+    @extend %h1;
+}
+
 h2 {
     @extend %heading-style;
-    font-weight: normal;
-    text-transform: lowercase;
+    @extend %h2;
 }
 
 h3 {
     @extend %heading-style;
-    text-transform: uppercase;
+    @extend %h3;
 }
 
-.job__position {
+.skill {
+    font-family: $heading-font-family;
+}
+
+.skill-axis {
+    letter-spacing: 0.1em;
+}
+
+.job__position,
+.school__degree {
     @extend %subheading-style;
 }
 

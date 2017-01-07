@@ -39,10 +39,14 @@ html(lang="en")
         +school(school)
 
       section#skills-section
-        h2 Areas of expertise
+        h2 Skills
         ul.skills
           each skill in skills
             li.skill= skill
+        ul.skills-axis
+          li.skill-axis Web
+          li.skill-axis Media
+          li.skill-axis UX
 
       section#jobs-section
         h2 Experience
@@ -52,5 +56,5 @@ html(lang="en")
       
       footer#page-footer
         p.last-updated-notice
-          | Last updated:
+          | The code for this resume can be found at https://github.com/jsepia/resume. Last updated:
           time(datetime=lastUpdatedTimestamp)= lastUpdatedDate

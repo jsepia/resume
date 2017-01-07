@@ -49,17 +49,78 @@ section {
 
 // components
 
+.skills,
+.skills-axis {
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: flex-end;
+}
+
+.skill,
+.skill-axis {
+    display: block;
+    position: relative;
+    flex: 1 1 0;
+    text-align: center;
+}
+
+.skills-axis {
+    margin-top: -0.05rem;
+}
+
 .skill {
-    display: inline-block;
+    @extend %subheading-style;
+    height: 4em;
 }
 
-%skill-separator {
-    content: '/';
-    margin: 0 .5em 0 .25em;
+.skill:nth-child(2n) {
+    height: 2.5em;
 }
 
-.skill + .skill::before {
-    @extend %skill-separator;
+.skill-axis {
+    @extend %h3;
+    padding: 1em 1em 0;
+}
+
+.skill:before,
+.skill:after {
+    position: absolute;
+    content: ' ';
+    display: block;
+}
+
+.skill::before {
+    @extend %skill-connector;
+    top: 1.5em;
+    left: calc(50% - 0.05rem);
+    bottom: 0;
+}
+
+.skill:after {
+    @extend %skill-dot;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    left: calc(50% - 0.2rem);
+    bottom: -0.2rem;
+}
+
+// %skill-separator {
+//     content: '/';
+//     margin: 0 .5em 0 .25em;
+// }
+
+// .skill + .skill::before {
+//     @extend %skill-separator;
+// }
+
+.skills-axis {
+    :before {
+        content: ' ';
+        display: block;
+
+    }
 }
 
 #jobs {

@@ -14,6 +14,7 @@ const moment = require('moment');
 
 function addDate(jsonContent) {
   jsonContent.lastUpdatedDate = moment().format("MMMM Do YYYY");
+  jsonContent.lastUpdatedYear = moment().format("YYYY");
   jsonContent.lastUpdatedTimestamp = moment().format();
   return jsonContent;
 }

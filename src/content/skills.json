@@ -1,11 +1,13 @@
 {
   "skills": [
-    "Node.JS",
     "TypeScript",
+    "Node.JS",
+    "AWS",
     "React",
     "WebGL",
+    "Unity",
     "Sketch",
-    "AWS",
-    "Unity"
+    "Prototyping",
+    "Usability"
   ]
 }
