@@ -1,13 +1,13 @@
 {
   "skills": [
-    "jQuery",
+    "JavaScript",
     "Node.JS",
     "ES6",
+    "TypeScript",
     "CSS3",
     "WebGL",
     "Java",
     "Linux",
-    "Unity",
-    "MongoDB"
+    "Unity"
   ]
 }

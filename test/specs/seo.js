@@ -16,7 +16,6 @@ const SKILLS_KEY_TECHNOLOGIES = [
   "node",
   "css3",
   "es6",
-  "jquery",
   "java"
 ];
 

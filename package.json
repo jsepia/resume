@@ -1,6 +1,6 @@
 {
   "name": "resume",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A print-friendly HTML resume, written in Markdown and rendered with SASS, Pug and Gulp",
   "main": "app.js",
   "scripts": {
