@@ -47,7 +47,7 @@ html(lang="en")
       section#jobs-section
         h2 Experience
         #jobs
-          each job in jobs
+          each job in jobs.slice(0, 8)
             +job(job)
       
       footer#page-footer
