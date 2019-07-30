@@ -7,7 +7,7 @@ const expectDOMElement = require('../utils/expectDOMElement');
 const MY_NAME = "Julio Sepia";
 const WEB_DEVELOPER_STRING = "web developer";
 const BIO_KEYWORDS = [
-  "web application",
+  "full stack",
   "frontend",
   "game",
   "user experience"
