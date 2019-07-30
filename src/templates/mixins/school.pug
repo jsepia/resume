@@ -2,6 +2,7 @@ include ./duration
 mixin school(school)
   p.school__duration
     +duration(school.startYear, school.endYear)
+  div.school__degree= school.degree
   p.school__details
     span.school__details__name= school.name
     | , 

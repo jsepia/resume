@@ -1,3 +1,15 @@
 %section-delimiter {
-    border-top: solid .125em;
+    border-top: solid .2rem;
+}
+
+%skill-connector {
+    border-left: solid .1rem;
+}
+
+%skill-dot {
+    border: solid .2rem;
+}
+
+.skills-axis {
+    border-top: solid .1rem;
 }

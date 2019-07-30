@@ -8,15 +8,14 @@ const MY_NAME = "Julio Sepia";
 const WEB_DEVELOPER_STRING = "web developer";
 const BIO_KEYWORDS = [
   "web application",
-  "front-end",
-  "videogames",
+  "frontend",
+  "game",
   "user experience"
 ];
 const SKILLS_KEY_TECHNOLOGIES = [
   "node",
-  "css3",
-  "es6",
-  "java"
+  "react",
+  "aws"
 ];
 
 const TITLE_SELECTOR = "head > title";

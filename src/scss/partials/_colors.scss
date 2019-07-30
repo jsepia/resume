@@ -5,6 +5,8 @@ $light-accent-color: #f2d4a6;
 $dark-color: #2B2117;
 $medium-color: mix($dark-color, $dull-accent-color, 50%);
 $complementary-color: #7C915D;
+$timeline-color: $light-accent-color;
+$timeline-dot-color: $dull-accent-color;
 
 $heading-color: $strong-accent-color;
 $body-color: $dark-color;
@@ -22,7 +24,7 @@ body {
     color: saturate($heading-color, 50%);
 }
 
-%main-subtitle-style ,
+%main-subtitle-style,
 %subheading-style {
     color: $complementary-color;
 }
@@ -36,7 +38,20 @@ body {
 }
 
 .skill {
-    color: $medium-color;
+    color: $heading-color;
+}
+
+.skill:before {
+    border-color: $timeline-color;
+}
+
+.skill:after {
+    border-color: $timeline-dot-color;
+}
+
+.skills-axis {
+    border-top-color: $timeline-color;
+    color: $complementary-color;
 }
 
 %skill-separator {
