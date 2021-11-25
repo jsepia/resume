@@ -4,7 +4,7 @@
   "description": "A print-friendly HTML resume, written in Markdown and rendered with SASS, Pug and Gulp",
   "main": "app.js",
   "scripts": {
-    "build": "gulp",
+    "build": "gulp build",
     "clean": "gulp clean",
     "test": "gulp test",
     "watch": "gulp watch"
@@ -20,15 +20,19 @@
   },
   "homepage": "https://github.com/jsepia/resume#readme",
   "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/register": "^7.16.0",
     "autoprefixer": "^6.4.1",
     "chai": "^3.5.0",
-    "cheerio": "^0.22.0",
+    "cheerio": "^1.0.0-rc.10",
+    "dart-sass": "^1.25.0",
     "del": "^2.2.2",
-    "gulp": "^3.9.1",
-    "gulp-merge-json": "^0.6.0",
-    "gulp-mocha": "^3.0.1",
-    "gulp-pug": "^3.0.4",
-    "gulp-sass": "^2.3.2",
+    "gulp": "^4.0.2",
+    "gulp-merge-json": "^2.1.1",
+    "gulp-mocha": "^8.0.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.0.0",
     "moment": "^2.15.0"
   }
 }

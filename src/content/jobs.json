@@ -4,64 +4,73 @@
       "employer": "AWS Control Tower",
       "position": "Sr. Design Technologist",
       "startYear": "2018",
-      "endYear": "2019",
-      "description": "Created a UX prototype for a new AWS service, gathering early stakeholder feedback, uncovering technical constraints, defining data models, and delivering UX-approved JSX code."
+      "endYear": "2021",
+      "description": "Worked with a UX lead to create a high-fidelity prototype for a new AWS service, gathering early stakeholder feedback, uncovering technical constraints, defining data models, and delivering UX-approved React components. Researched and adopted new technologies, created prototypes for usability testing, developed technical proofs-of-concept to inform business decisions, created end-to-end mockups for large scale features impacting multiple teams. Got certified as an AWS Cloud Practitioner. Wrote and iterated on design documents, presentations, stories, tickets. Worked with designers, engineers, and product managers, at all stages of product development, to dispel ambiguity, identify technical constraints, define requirements, and share knowledge.",
+      "tags": ["frontend", "React", "design"]
     },
     {
       "employer": "AWS Service Catalog",
       "position": "Web Development Engineer",
       "startYear": "2017",
       "endYear": "2018",
-      "description": "Built frontend components in Material Design. Designed and prototyped \"Brand your console\", a feature that lets IT administrators customize Service Catalog's theme colors."
+      "description": "Frontend feature development. Built frontend components in an in-house framework based on Material Design. Designed and prototyped \"Brand your console\", a feature that lets IT administrators customize Service Catalog's theme colors.",
+      "tags": ["frontend", "middle tier", "AngularJS"]
     },
     {
       "employer": "Amazon Kindle Instant Previews",
       "position": "Web Development Engineer",
       "startYear": "2014",
       "endYear": "2017",
-      "description": "Worked on the world's most versatile e-book previewer. Highlights include a modular SASS framework, and a lightweight widget you can embed anywhere."
+      "description": "Worked on the world's most versatile e-book previewer. Highlights include a modular SASS framework, a lightweight \"book card\" widget you can embed anywhere, and code contributions to WordPress to add oEmbed support for Kindle previews.",
+      "tags": ["frontend", "middle tier", "mobile"]
     },
     {
       "employer": "Infinitarium",
       "position": "Lead Developer",
       "startYear": "2011",
       "endYear": "2014",
-      "description": "Worked on websites, web apps and mobile games, doing UI design, visual design, front-end development, tooling, Node.JS servers, devops, and agile methodologies."
+      "description": "Developed and maintained on websites, web apps and mobile games, doing UI design, visual design, front-end development, tooling, Node.JS servers, devops, and agile methodologies.",
+      "tags": ["frontend", "middle tier", "devops", "mobile", "HTML5", "WebGL"]
     },
     {
       "employer": "INIA - Agricultural Research Institute",
       "position": "Web Developer",
       "startYear": "2012",
       "endYear": "2013",
-      "description": "Designed and developed a large-scale Wordpress portal, as well as various custom plugins tailored to the client’s particular needs."
+      "description": "Designed and developed a large-scale Wordpress portal, as well as various custom plugins tailored to the client’s particular needs.",
+      "tags": ["frontend", "design"]
     },
     {
       "employer": "Blink",
       "position": "Personal project",
       "startYear": "2011",
       "endYear": "2011",
-      "description": "Created an HTML5 game programming library. Blink’s component-oriented API and extensive feature set gave my team a critical advantage in time-constrained game jams."
+      "description": "Created an HTML5 game programming library. Blink’s component-oriented API and extensive feature set gave my team a critical advantage in time-constrained game jams.",
+      "tags": ["frontend", "HTML5"]
     },
     {
       "employer": "DentalChile",
       "position": "Freelance developer",
       "startYear": "2009",
       "endYear": "2010",
-      "description": "Helped architect and develop a web-based CRM. The app crunches large volumes of medical data into helpful charts that assist DentalChile's CEO in decision-making."
+      "description": "Helped architect and develop a web-based CRM. The app crunches large volumes of medical data into helpful charts that assist DentalChile's CEO in decision-making.",
+      "tags": ["frontend", "backend", "database"]
     },
     {
       "employer": "Technical University Federico Santa Maria",
       "position": "Teacher",
       "startYear": "2008",
       "endYear": "2009",
-      "description": "Taught a Java mobile game programming course and co-founded a local chapter of the USM Games organization."
+      "description": "Taught a Java mobile game programming course and co-founded a local chapter of the USM Games organization.",
+      "tags": ["mobile"]
     },
     {
       "employer": "Various",
       "position": "Freelance developer",
       "startYear": "2008",
       "endYear": "2010",
-      "description": "Designed and coded personal portfolios, educational websites, online catalogs, etc. I worked with individuals and companies alike, both local and foreign."
+      "description": "Designed and coded personal portfolios, educational websites, online catalogs, etc. I worked with individuals and companies alike, both local and foreign.",
+      "tags": ["frontend", "design"]
     }
   ]
 }

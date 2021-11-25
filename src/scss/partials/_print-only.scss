@@ -10,3 +10,8 @@ body {
 #page-footer {
     display: none;
 }
+
+.job {
+    page-break-inside: avoid;
+}
+

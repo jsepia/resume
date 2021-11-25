@@ -1,9 +1,11 @@
 include ./duration
 mixin job(job)
   article.job
-    header
-      p.job__duration
-        +duration(job.startYear, job.endYear)
-      h3.job__employer= job.employer
-      p.job__position= job.position
+    p.job__duration
+      +duration(job.startYear, job.endYear)
+    h3.job__employer= job.employer
+    p.job__position= job.position
+    ul.job__tags
+      each tag in job.tags
+        li= tag
     p.job__description= job.description

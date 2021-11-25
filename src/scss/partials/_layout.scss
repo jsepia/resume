@@ -124,18 +124,49 @@ section {
 }
 
 #jobs {
-    @extend %grid;
     padding-top: 1rem;
 }
 
-    .job {
-        @extend %grid-cell;
-        @extend %grid-cell-1of4;
+.job {
+    display: grid;
+    grid-column-gap: 1em;
+    grid-row-gap: .25em;
+    grid-template-columns: 6.66em .5em auto 1fr;
+    grid-template-areas:
+        "duration divider employer position"
+        "duration divider tags tags"
+        "duration divider body body";
+    padding-bottom: 1em;
+
+    &:before,
+    &:after {
+        content: ' ';
+        display: block;
+        grid-area: divider;
+        text-align: center;
     }
 
-.school__duration,
-.job__duration {
-    font-size: .75rem;
+    &:before {
+        height: calc(100% + 1em);
+        transform: translate(0.2em, .5em);
+        width: .1rem;
+    }
+
+    &:after {
+        width: .5em;
+        height: .5em;
+        transform: translate(0, .25em);
+        border-radius: 50%;
+    }
+}
+
+.job:last-child {
+    padding-bottom: 0;
+
+    &:before {
+        height: 100%;
+    }
+
 }
 
 .school__duration,
@@ -143,8 +174,40 @@ section {
     margin-bottom: .25em;
 }
 
+.job__duration {
+    grid-area: duration;
+    text-align: right;
+}
+
 .job__employer {
     margin-bottom: 0;
+    grid-area: employer;
+}
+
+.job__position {
+    margin-bottom: 0;
+    grid-area: position;
+}
+
+.job__tags {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    grid-area: tags;
+
+    > li {
+        text-transform: uppercase;
+    }
+
+    > li + li {
+        margin-left: 0.25rem;
+    }
+}
+
+.job__description {
+    grid-area: body;
 }
 
 

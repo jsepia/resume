@@ -61,3 +61,25 @@ body {
 #contact-info {
     color: $heading-color;
 }
+
+.job {
+    &:before {
+        background-color: $timeline-color;
+    }
+    &:after {
+        background-color: $timeline-dot-color;
+    }
+}
+
+.job__position {
+    color: $complementary-color;
+
+    &:before {
+        color: $timeline-color;
+    }
+}
+
+.job__tags > li:before {
+    color: $timeline-color;
+}
+
