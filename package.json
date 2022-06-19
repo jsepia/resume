@@ -33,6 +33,6 @@
     "gulp-mocha": "^8.0.0",
     "gulp-pug": "^5.0.0",
     "gulp-sass": "^5.0.0",
-    "moment": "^2.15.0"
+    "moment": "^2.29.2"
   }
 }
