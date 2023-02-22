@@ -23,7 +23,7 @@
     "@babel/core": "^7.16.0",
     "@babel/preset-env": "^7.16.4",
     "@babel/register": "^7.16.0",
-    "autoprefixer": "^6.4.1",
+    "autoprefixer": "^10.4.13",
     "chai": "^3.5.0",
     "cheerio": "^1.0.0-rc.10",
     "dart-sass": "^1.25.0",
